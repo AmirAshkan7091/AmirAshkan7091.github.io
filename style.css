@@ -3,69 +3,77 @@
 
 
 body {
-    background: rgb(150, 150, 150);
-   
-  }
-  
-
+    background:  rgb(20, 20, 20);
+}
 
 
   .box-header1{
-    position: relative;
-    bottom: -30px;
+    position: relative
+    top: 20px;
     left: 895px;
-    box-shadow: 10px 10px 15px rgba(0,0,0,.5);
+    background-color: rgb(20, 20, 20);
     padding: 20px;
-    border: 10px solid rgba(255,255,255,.2);
+    border: 1px solid  rgb(20, 20, 20);
     border-radius:  5px; 
     transform: translate(-50%,-50%);
-    
    }
 
 
 
 .divfade{
-  
+ 
+  color: rgba(255, 255, 255, 0);
   width: 900px;
   height: 900px;
-  box-shadow: 10px 10px 15px rgba(0,0,0,.5);
+  box-shadow: 10px 10px 15px rgba(255,255,255,.2);
   position: absolute;
   border: 10px solid rgba(255,255,255,.2);
-  top: 95%;
-  left: 50%;
-  border-radius:  5px; 
-  transform: translate(-50%,-50%);
-  
+  top: 50%;
+  left: 25%;
+  border-radius:  5px;  
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -o--transition: all 1s ease-in;
+    transition: all 1s ease-in;
+   } 
 
-   }  
 
-   .box-header1 h1{
-    
+  .divfade:hover{
+    background-color:rgba(255, 255, 255, 0.719);
+    -webkit-opacity: 2;
+    -moz-opacity: 2;
+    opacity: 2;
+  } 
+
+
+  .esmam{
+    color:rgba(255, 255, 255, 0) ;
+    clear: both;
+    float: left;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
     position: relative;
-    bottom:18px ;
-    right: -3px;
-    text-align: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    top:190px ;
+    left:235px;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o--transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+  }
+
+
+.esmam:hover{
+     color:rgb(61, 61, 61);
+    -webkit-opacity: 2;
+    -moz-opacity: 2;
+    opacity: 2;
+} 
    
-}
-
-   
 
 
-
-
-footer .box-header2{
-  position: relative;
-  top: 30px;
-  left: 895px;
-  box-shadow: 10px 10px 15px rgba(0,0,0,.5);
-  padding: 20px;
-  border: 10px solid rgba(255,255,255,.2);
-  border-radius:  5px; 
-  transform: translate(-50%,-50%);
-  
- }
 
 
 
