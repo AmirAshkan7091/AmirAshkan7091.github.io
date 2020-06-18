@@ -8,7 +8,7 @@ body, html {
   background-image: url("laura-vinck-Hyu76loQLdk-unsplash.jpg");
   height: 100%;
 }
-.pic1, .pic2, .pic3{
+.pic1{
   position: relative;
   opacity: 0.65;
   background-position: center;
@@ -55,12 +55,14 @@ body, html {
   }
 
 
- 
+
+
+
 
   .in-box:after {
     content: "";
     display: block;
-    padding-top: 50%;
+    /*padding-top: 50%;*/
   }
 
   .inside{
@@ -73,25 +75,69 @@ body, html {
 
   border: 2px solid rgba(255, 255, 255, 0.068);
   border-radius:  5px;
-  }
 
-  .inside:after {
+   }
+
+
+
+
+
+
+
+
+  .boxit:after {
     content: "";
     display: block;
-    padding-top: 50%;
+    /*padding-top: 50%;*/
   }
 
-  .inside-box1{
+  .inside2{
   position: absolute;
-  top: 4%;
-  right: 6%;
+  top: 5%;
+  right: 4%;
 
-  width: 88%;
-  height: 92%;
+  width: 46%;
+  height: 89%;
 
-  border: 1px solid rgb(19, 18, 18);
+
+  border: 2px solid rgba(255, 255, 255, 0.068);
   border-radius:  5px;
 
-  text-align: center;
-  color: rgba(253, 253, 253, 0.39);
+  -webkit-transition: all 1s ease ;
+  -moz-transition: all 1s ease ;
+  -ms-transition: all 1s ease ;
+  -o--transition: all 1s ease ;
+  transition: all 1s ease ;
+   }
+
+  .inside2:hover{
+    background-color:rgb(100, 180, 175);
+    -webkit-opacity: 0.25;
+    -moz-opacity: 0.25;
+    opacity: 0.25;
   }
+
+
+
+
+
+
+
+  .inside-name:after {
+    content: "";
+    display: block;
+    /*padding-top: 50%;*/
+    clear: both;
+  }
+
+  .name{
+  position: absolute;
+  top: 43%;
+  right: 11%;
+  content: inherit;
+
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px;
+  color: black;
+
