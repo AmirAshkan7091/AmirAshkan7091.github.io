@@ -1,6 +1,8 @@
+
 body, html {
   height: 100%;
   margin: 0;
+  background-image: url("laura-vinck-Hyu76loQLdk-unsplash.jpg");
   background-color: rgb(126, 126, 126);
 }
 
@@ -60,10 +62,12 @@ body, html {
 
 
 
-  .in-box:after {
+
+
+  .boxfade:after {
     content: "";
     display: block;
-    /*padding-top: 50%;*/
+    padding-top: 50%;
   }
 
   .inside{
@@ -79,19 +83,26 @@ body, html {
   background-color: rgba(70, 103, 109, 0.603);
   }
 
-  .inside-name:after {
+
+
+
+  .inside:after {
     content: "";
     display: block;
     padding-top: 50%;
 
   }
+  .name {
+    position: relative;
+    width: 25%;
+  }
 
   .name{
-  position: absolute;
-  top: 43%;
-  right: 32%;
-
-  margin: .5em auto;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
 
   text-align: center;
   font-family: 'Rubik', sans-serif;
@@ -107,10 +118,10 @@ body, html {
 
 
 
-  .in-box:after {
+  .boxfade:after {
     content: "";
     display: block;
-    /*padding-top: 50%;*/
+    padding-top: 50%;
   }
 
   .inside2{
@@ -136,21 +147,141 @@ body, html {
     content: "";
     display: block;
     padding-top: 50%;
-
   }
 
-  .list{
-  position: absolute;
-  top: 24%;
-  right: 36%;
-
+  .listam{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  
+  }
+
+
+
+  .listam:after{
+    content: "";
+    display: block;
+    padding-top: 50%;
+  }
+  .p{
+    width: 0px;
+    height: 0px;
+    margin: 0 auto;
+
+    position: absolute;
+    top: 28%;
+    right: 58%;
+
   text-align: center;
   font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: bold;
   color: black;
   }
+
+
+  .listam:after{
+    content: "";
+    display: block;
+    padding-top: 5%;
+  }
+  .a{
+    width: 0px;
+    height: 0px;
+    margin: 0 auto;
+
+    position: absolute;
+    top: 45%;
+    right: 60%;
+
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  }
+
+
+  .listam:after{
+    content: "";
+    display: block;
+  }
+  .c{
+    width: 0px;
+    height: 0px;
+    margin: 0 auto;
+
+    position: absolute;
+    top: 65%;
+    right: 61%;
+
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  }
+
+
+
+
+
+  .container {
+    position: relative;
+    width: 25%;
+  }
+
+  .container:after {
+    content: "";
+    display: block;
+    padding-top: 50%;
+  }
+  .footerfade{
+    position: absolute;
+    top: 84%;
+    right: 10%;
+
+    width: 80%;
+    height: 15%;
+
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius:  5px;
+     }
+
+
+
+
+
+     .footerfade:after{
+      content: "";
+      display: block;
+    }
+
+    .socialicon1{
+      position: absolute;
+      top: 50%;
+      right: 55%;
+    }
+
+    .socialicon2{
+      position: absolute;
+      top: 50%;
+      right: 52%;
+    }
+
+    .socialicon3{
+      position: absolute;
+      top: 50%;
+      right: 49%;
+    }
+
+    .socialicon4{
+      position: absolute;
+      top: 50%;
+      right: 45%;
+    }
+
+    .socialicon5{
+      position: absolute;
+      top: 50%;
+      right: 42%;
+    }
