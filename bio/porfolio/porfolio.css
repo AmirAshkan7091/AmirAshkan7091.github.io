@@ -1,0 +1,148 @@
+body, html {
+  height: 100% auto;
+  height: 100% auto;
+  margin: 0;
+  background-color: rgb(126, 126, 126);
+  background-image: url("stars-5120x2880-star-trail-galaxy-sky-4k-6k-18295.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+  .boxfade{
+
+    width: auto;
+    height: auto;
+    box-shadow: 10px 10px 15px rgba(77, 77, 77, 0.493);
+    border: 10px solid rgba(77, 77, 77, 0);
+    border-radius:  5px;
+  
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -ms-transition: all 1s ease-in;
+  -o--transition: all 1s ease-in;
+  transition: all 1s ease-in;
+   }
+
+  .boxfade:hover{
+    background-color:rgba(129, 122, 96, 0.466);
+    -webkit-opacity: 2;
+    -moz-opacity: 2;
+    opacity: 2;
+  }
+
+ .container{
+
+  width: 800px;
+  margin: 50px auto;
+  display: table;
+  box-sizing: border-box;
+
+ }
+
+.row{
+  margin: 20px 0;
+  transition: .5s;
+}
+
+
+.column{
+
+
+display:table-cell ;
+padding: 10px;
+width: 33.33333%;
+text-align: center;
+color: black;
+vertical-align: middle;
+
+border-right:10px  solid rgba(0, 0, 0, 0.219);
+border-left: 10px solid rgba(0, 0, 0, 0.219);
+transition: .5s;
+
+}
+
+
+.row:nth-child(1) .column:nth-child(1){
+
+    background: blue;
+
+}
+.row:nth-child(1) .column:nth-child(2){
+
+  background: rgb(0, 73, 6);
+
+}
+.row:nth-child(1) .column:nth-child(3){
+
+  background: rgb(0, 73, 6);
+
+}
+
+
+
+
+.row:nth-child(2) .column:nth-child(1){
+
+  background: rgb(132, 12, 202);
+
+}
+.row:nth-child(2) .column:nth-child(2){
+
+background: rgb(90, 207, 0.100);
+
+}.row:nth-child(2) .column:nth-child(3){
+
+  background: rgb(0, 73, 6);
+
+}
+
+
+
+
+
+.row:nth-child(3) .column:nth-child(1){
+
+  background: rgb(84, 84, 122);
+
+}
+.row:nth-child(3) .column:nth-child(2){
+
+background: rgb(96, 148, 155);
+
+}.row:nth-child(3) .column:nth-child(3){
+
+  background: rgb(0, 73, 6);
+
+}
+
+
+@media (max-width:900px){
+
+        .container{
+
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        .column{
+          width: 100px auto;
+          display: block;
+          margin: 10px 0;
+          border: 10px 0;
+          box-sizing: border-box;
+        }
+
+        .row{
+
+          margin: 0;
+          
+        }
+}
+  
+
+
+
+

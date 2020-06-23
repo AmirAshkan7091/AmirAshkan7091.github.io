@@ -1,19 +1,9 @@
-
 body, html {
-  height: 100%;
+  height: 100% auto;
+  height: 100% auto;
   margin: 0;
-  background-image: url("laura-vinck-Hyu76loQLdk-unsplash.jpg");
   background-color: rgb(126, 126, 126);
-}
-
-.pic1 {
-  background-image: url("laura-vinck-Hyu76loQLdk-unsplash.jpg");
-  height: 100%;
-}
-.pic1{
-  position: relative;
-  opacity: 0.65;
-  background-position: center;
+  background-image: url("stars-5120x2880-star-trail-galaxy-sky-4k-6k-18295.jpg") ;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -38,8 +28,8 @@ body, html {
   width: 50%;
   height: 50%;
 
-  box-shadow: 10px 10px 15px rgba(172, 127, 127, 0.137);
-  border: 10px solid rgba(156, 152, 196, 0.137);
+  box-shadow: 10px 10px 15px rgba(77, 77, 77, 0.493);
+  border: 10px solid rgba(77, 77, 77, 0);
   border-radius:  5px;
 
   -webkit-transition: all 1s ease-in;
@@ -50,7 +40,7 @@ body, html {
    }
 
   .boxfade:hover{
-    background-color:rgba(180, 148, 148, 0.692);
+    background-color:rgb(129, 122, 96);
     -webkit-opacity: 2;
     -moz-opacity: 2;
     opacity: 2;
@@ -80,7 +70,7 @@ body, html {
 
   border: 2px solid rgba(255, 255, 255, 0.068);
   border-radius:  5px;
-  background-color: rgba(70, 103, 109, 0.603);
+  background-color: rgba(160, 161, 161, 0.747);
   }
 
 
@@ -136,10 +126,8 @@ body, html {
   border: 2px solid rgba(255, 255, 255, 0.068);
   border-radius:  5px;
 
-  background-color: rgba(70, 103, 109, 0.603);
+  background-color: rgba(160, 161, 161, 0.747);
   }
-
-
 
 
 
@@ -221,6 +209,16 @@ body, html {
   color: black;
   }
 
+  a:link {
+    color: rgb(35, 0, 92);
+  }
+  a:visited {
+    color: rgb(0, 0, 0);
+  }
+  a:active {
+    color: blue;
+  }
+
 
 
 
@@ -241,10 +239,14 @@ body, html {
     right: 10%;
 
     width: 80%;
-    height: 15%;
+    height: 3%;
+
+    font-size: medium;
 
     border: 1px solid rgba(255, 255, 255, 0);
     border-radius:  5px;
+
+    background-color: rgba(160, 161, 161, 0.747);
      }
 
 
@@ -256,32 +258,101 @@ body, html {
       display: block;
     }
 
+
+
     .socialicon1{
       position: absolute;
-      top: 50%;
+      top: 6%;
       right: 55%;
     }
+    .socialicon1:link {
+      color: rgb(35, 0, 92);
+    }
+    .socialicon1:visited {
+      color: rgb(255, 255, 255);
+    }
+    .socialicon1:active {
+      color: blue;
+    }
+
+
+
+
+
 
     .socialicon2{
       position: absolute;
-      top: 50%;
+      top: 6%;
       right: 52%;
     }
+    .socialicon2:link {
+      color: rgb(35, 0, 92);
+    }
+    .socialicon2:visited {
+      color: rgb(255, 255, 255);
+    }
+    .socialicon2:active {
+      color: blue;
+    }
+
+
+
+
 
     .socialicon3{
       position: absolute;
-      top: 50%;
+      top: 6%;
       right: 49%;
     }
+    .socialicon3:link {
+      color: rgb(35, 0, 92);
+    }
+    .socialicon3:visited {
+      color: rgb(255, 255, 255);
+    }
+    .socialicon3:active {
+      color: blue;
+    }
+
+
+
+
 
     .socialicon4{
       position: absolute;
-      top: 50%;
+      top: 6%;
       right: 45%;
     }
+    .socialicon4:link {
+      color: rgb(35, 0, 92);
+    }
+    .socialicon4:visited {
+      color: rgb(255, 255, 255);
+    }
+    .socialicon4:active {
+      color: blue;
+    }
+
+
+
+
 
     .socialicon5{
       position: absolute;
-      top: 50%;
+      top: 6%;
       right: 42%;
     }
+    .socialicon5:link {
+      color: rgb(35, 0, 92);
+    }
+    .socialicon5:visited {
+      color: rgb(47, 0, 255);
+    }
+    .socialicon5:active {
+      color: blue;
+    }
+
+
+
+
+
