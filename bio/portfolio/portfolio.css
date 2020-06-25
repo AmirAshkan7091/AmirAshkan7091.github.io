@@ -1,7 +1,7 @@
 
 body, html {
-  height: 100% auto;
-  height: 100% auto;
+  /*height: 100% auto;
+  height: 100% auto;*/
   margin: 0;
   background-color: rgb(17, 15, 12);
   background-image: url("stars-5120x2880-star-trail-galaxy-sky-4k-6k-18295.jpg") ;
@@ -11,6 +11,7 @@ body, html {
 
 
   .boxfade{
+
     width: auto;
     height: auto;
     box-shadow: 10px 10px 15px rgba(77, 77, 77, 0.493);
@@ -22,6 +23,8 @@ body, html {
     -ms-transition: all 1s ease-in;
     -o--transition: all 1s ease-in;
     transition: all 1s ease-in;
+    padding: 3% 3%;
+    margin: 5% 0;
    }
   .boxfade:hover{
     background-color:rgba(129, 122, 96, 0.466);
@@ -40,48 +43,78 @@ body, html {
 
 
 
-.row{
-  margin: 20px 0;
+/*.row{
+
   transition: .5s;
+*/
 }
 
-
-
-
+/*
 .column{
   display:table-cell ;
-  padding: 10px;
+  padding: 1px;
   width: 33.33333%;
+  height: 33.33333%;
   text-align: center;
   color: black;
   vertical-align: middle;
 
-  border-right:10px  solid rgba(0, 0, 0, 0.219);
-  border-left: 10px solid rgba(0, 0, 0, 0.219);
-  transition: .5s;
-}
+  border-right:1px  solid rgba(0, 0, 0, 0.219);
+  border-left: 1px solid rgba(0, 0, 0, 0.219);
+  transition: 1s;
+}*/
 
 
 .row:nth-child(1) .column:nth-child(1){
 
-    background: blue;
+    background: rgba(160, 161, 161, 0.747);
 
 }
 .row:nth-child(1) .column:nth-child(2){
 
-  background: rgb(0, 73, 6);
+  background: rgba(160, 161, 161, 0.747);
 
 }
 .row:nth-child(1) .column:nth-child(3){
 
-  background: rgb(0, 73, 6);
+  background: rgba(160, 161, 161, 0.747);
 
 }
 
+.p1{
+  text-align: center;
+  font-size: x-large;
+  color: rgb(71, 71, 71);
+  font-family: 'Times New Roman', Times, serif;
+}
+.link1{
+  text-align: center;
+  font-size: x-large;
+  color: rgb(71, 71, 71);
+  font-family:'Times New Roman', Times, serif;
+}
+.p3{
+  text-align: center;
+  font-size: x-large;
+  color: rgb(71, 71, 71);
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.p3:hover{
+font-size: 0;
+}
+.p3:hover:after{
+content: attr(data-hover);
+font-size: x-large;
+text-align: center;
+color: rgb(0, 107, 41);
+-webkit-opacity: 2;
+-moz-opacity: 2;
+opacity: 2;
+}
 
 
-
-.row:nth-child(2) .column:nth-child(1){
+/*.row:nth-child(2) .column:nth-child(1){
 
   background: rgb(132, 12, 202);
 
@@ -113,7 +146,7 @@ background: rgb(96, 148, 155);
 
   background: rgb(0, 73, 6);
 
-}
+}*/
 
 
 @media (max-width:900px){
