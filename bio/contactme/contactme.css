@@ -1,9 +1,7 @@
 
 body, html {
-  /*height: 100% auto;
-  height: 100% auto;*/
+
   margin: 0;
-  justify-content: center;
   background-color: rgb(17, 15, 12);
   background-image: url("stars-5120x2880-star-trail-galaxy-sky-4k-6k-18295.jpg") ;
   background-repeat: no-repeat;
@@ -11,44 +9,51 @@ body, html {
 }
 
 
+
+
+
 .container-fluid{
 
-  width: 800px;
-  height: 800px;
   align-items: center;
   justify-content: center;
-  display: flex;
+  width: 30%;
+  height: 25%;
 
-}
+  box-shadow: 10px 10px 15px rgba(77, 77, 77, 0.493);
+  border: 10px solid rgba(77, 77, 77, 0);
+  border-radius:  5px;
 
+  background-color:rgb(126, 120, 98);
 
-  .boxfade{
+  }
 
-    width: 400px;
-    height: 400px;
+  h1{
+    font-size: 20px;
+    text-align: left;
+  }
 
-    box-shadow: 10px 10px 15px rgba(77, 77, 77, 0.493);
-    border: 10px solid rgba(77, 77, 77, 0);
-    border-radius:  5px;
+  .p1{
+    font-size: 10px;
 
+  }
 
-    -webkit-transition: all 1s ease-in;
-    -moz-transition: all 1s ease-in;
-    -ms-transition: all 1s ease-in;
-    -o--transition: all 1s ease-in;
-    transition: all 1s ease-in;
-    padding: 3% 3%;
-    margin: 5% 0;
-   }
-  .boxfade:hover{
-    background-color:rgba(129, 122, 96, 0.466);
-    -webkit-opacity: 2;
-    -moz-opacity: 2;
-    opacity: 2;
+  .alinks1{
+    color: rgb(0, 0, 0);
   }
 
 
+  <div style="height: 20px;" class="row"></div>
 
+  <div style="height: 20px; background-color: rgba(240, 248, 255, 0.479);" class="row">
+    <p class="col col-md col-sm col-xs">
 
-
+    </p>
+  </div>
+  <div style="height: 20px;" class="row"></div><div style="height: 20px;" class="row"></div><div style="height: 20px;" class="row"></div><div style="height: 20px;" class="row"></div><div style="height: 20px;" class="row"></div><div style="height: 20px;" class="row"></div><div style="height: 20px;" class="row"></div>
+  <div style="height: 20px; background-color: aqua;" class="row">
+    
+    <div  class="col-2 col-md-4 col-sm-6 col-xs-8">
+      <div style="height: 20px;" class="row"></div>
+    </div>
+</div>
 

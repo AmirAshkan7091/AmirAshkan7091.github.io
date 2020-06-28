@@ -65,6 +65,8 @@ body, html {
 /*column first right*/
 .column1{
 display:table-cell ;
+align-items: center;
+justify-content: center;
 
 position: absolute;
 top: 2%;
@@ -92,13 +94,13 @@ transition: .5s;
 /*column1 include text*/
 
 .name{
-text-align: justify;
-
-
   font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: bold;
   color: black;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-right: 11px;
 }
 
 
@@ -108,7 +110,6 @@ text-align: justify;
 /*column second right*/
 .column2{
   display:table-cell ;
-
   position: absolute;
   top: 2%;
   right: 2%;
@@ -127,7 +128,20 @@ text-align: justify;
   background-color: rgba(160, 161, 161, 0.747);
   transition: .5s;
   }
-
+.alinka{
+  color: black;
+}
+.listam{
+  align-items: center;
+  justify-content: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-right: 11px;
+}
 
 
 
@@ -171,7 +185,7 @@ text-align: justify;
     right: 10%;
 
     width: 80%;
-    height: 3%;
+    height: 5%;
 
     font-size: medium;
 
@@ -211,8 +225,8 @@ text-align: justify;
 
     .socialicon1{
       position: absolute;
-      top: 6%;
-      right: 55%;
+      top: 20%;
+      right:70%;
     }
     .socialicon1:link {
       color: rgb(35, 0, 92);
@@ -231,8 +245,8 @@ text-align: justify;
 
     .socialicon2{
       position: absolute;
-      top: 6%;
-      right: 52%;
+      top: 20%;
+      right: 60%;
     }
     .socialicon2:link {
       color: rgb(35, 0, 92);
@@ -250,8 +264,8 @@ text-align: justify;
 
     .socialicon3{
       position: absolute;
-      top: 6%;
-      right: 49%;
+      top: 20%;
+      right: 50%;
     }
     .socialicon3:link {
       color: rgb(35, 0, 92);
@@ -269,8 +283,8 @@ text-align: justify;
 
     .socialicon4{
       position: absolute;
-      top: 6%;
-      right: 45%;
+      top: 20%;
+      right: 40%;
     }
     .socialicon4:link {
       color: rgb(35, 0, 92);
@@ -288,8 +302,8 @@ text-align: justify;
 
     .socialicon5{
       position: absolute;
-      top: 6%;
-      right: 42%;
+      top: 20%;
+      right: 30%;
     }
     .socialicon5:link {
       color: rgb(35, 0, 92);
