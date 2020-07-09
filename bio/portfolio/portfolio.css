@@ -84,23 +84,22 @@ body, html {
 .p1{
   text-align: center;
   font-size: x-large;
-  color: rgb(71, 71, 71);
+  color: rgb(30, 0, 0);
   font-family: 'Times New Roman', Times, serif;
 }
 .link1{
   text-align: center;
   font-size: x-large;
-  color: rgb(71, 71, 71);
+  color: rgb(30, 0, 0);
   font-family:'Times New Roman', Times, serif;
 }
-.p3{
+/* .p3{
   text-align: center;
   font-size: x-large;
   color: rgb(71, 71, 71);
   font-family: 'Times New Roman', Times, serif;
-
-}
-.p3:hover{
+} */
+/* .p3:hover{
 font-size: 0;
 }
 .p3:hover:after{
@@ -111,7 +110,7 @@ color: rgb(0, 107, 41);
 -webkit-opacity: 2;
 -moz-opacity: 2;
 opacity: 2;
-}
+} */
 
 
 /*.row:nth-child(2) .column:nth-child(1){
